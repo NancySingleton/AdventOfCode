@@ -1,6 +1,6 @@
 namespace AdventOfCode.Days.Day1;
 
-public class Day1 : IDay
+public class Part1 : IDayPart
 {
     public int Solve()
     {

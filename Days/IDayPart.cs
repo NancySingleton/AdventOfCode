@@ -1,6 +1,6 @@
 namespace AdventOfCode.Days;
 
-public interface IDay
+public interface IDayPart
 {
     public int Solve();
 }
