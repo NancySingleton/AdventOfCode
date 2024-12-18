@@ -7,6 +7,11 @@ public class Part1 : IDayPart
     public int Solve()
     {
         var text = Common.ReadInput();
+        return Calculate(text);
+    }
+
+    public static int Calculate(string text)
+    {
         var matches = Common.GetMulMatches(text);
 
         var total = 0;
