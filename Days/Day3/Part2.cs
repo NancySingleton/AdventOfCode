@@ -4,7 +4,7 @@ public class Part2 : IDayPart
 {
     public int Solve()
     {
-        var lines = Common.ReadInput();
+        var text = Common.ReadInput();
         return 0;
     }
 }
